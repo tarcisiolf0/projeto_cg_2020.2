@@ -685,18 +685,18 @@ def change_side(w, h):
     # gluPerspective(GLdouble fovy, GLdouble aspect, GLdouble zNear, GLdouble zFar);
 
     global half_width, half_height
-    #if h == 0:
-    #    h = 1
+    if h == 0:
+        h = 1
     ratio = w * 1/h
 
     glMatrixMode(GL_PROJECTION)
 
     glLoadIdentity()
 
-    #glViewport(0, 0, w, h)
+    glViewport(0, 0, w, h)
 
-    #half_width = w / 2
-    #half_height = h / 2
+    half_width = w / 2
+    half_height = h / 2
 
     gluPerspective(45, ratio, 0.1, 100)
 
