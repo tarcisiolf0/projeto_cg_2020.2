@@ -6,8 +6,7 @@
 ### Dupla: Leandro e Tarcísio
 #### 2020.2
 
-Demonstração: 
-
+Apresentação: https://youtu.be/kUCiL58jLs8
 
 #### Requisitos para rodar:
 - python3 instalado
